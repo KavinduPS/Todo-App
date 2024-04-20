@@ -1,0 +1,71 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  align-items: center;
+  background-color: #feaa00;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40vw;
+  padding-bottom: 50px;
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+}
+
+input[type='text']{
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  margin: 10px;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.todo-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.item-controllers{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-content{
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.update-button{
+  background-color: #788402;
+}
+
+.delete-button{
+  background-color: #c70039;
+}
+
+.update-form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.update-todo{
+  background-color: #788402;
+}
